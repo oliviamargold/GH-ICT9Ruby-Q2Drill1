@@ -1,0 +1,55 @@
+body {
+    background-image: url(https://img.pikbest.com/backgrounds/20220119/play-badminton-blue-gradient-background_6247605.jpg!sw800);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.text-style {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #1c2069;
+}
+
+.text-style mark {
+  background-color: rgb(162, 193, 255);
+  color: #3c4982;   
+  border-radius:5px 
+}
+
+.container-fluid {
+    background-color: rgba(162, 193, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(87, 87, 158, 0.1);
+}
+
+.row {
+    gap: 8px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff9cb;
+    display: block; 
+    margin: 0 auto;  
+}
+
+.col-3 {
+    background-color: rgb(255, 255, 227);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: rgba(162, 193, 255, 0.5);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
